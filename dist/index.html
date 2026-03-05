@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сапёр</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💣</text></svg>" />
+  <script type="module" crossorigin src="/assets/index-DlOHiW7a.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-dS4GNN9w.css">
+</head>
+<body>
+  <div id="app">
+    <h1>💣 Сапёр</h1>
+
+    <div class="controls">
+      <button class="diff-btn active" data-difficulty="easy">Легко</button>
+      <button class="diff-btn" data-difficulty="medium">Средне</button>
+      <button class="diff-btn" data-difficulty="hard">Сложно</button>
+    </div>
+
+    <div class="status-bar">
+      <div class="status-item">
+        <span class="status-icon">💣</span>
+        <span id="mine-count">10</span>
+      </div>
+      <button id="reset-btn" class="reset-btn">😊</button>
+      <div class="status-item">
+        <span class="status-icon">⏱️</span>
+        <span id="timer">000</span>
+      </div>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <div id="message" class="message hidden"></div>
+  </div>
+
+</body>
+</html>
